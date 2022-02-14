@@ -87,8 +87,8 @@ class IntegrationTests {
 
     private void addSampleData() {
         List<Experience> movies = List.of(
-                new Experience("Paseo por el Montseny"),
-                new Experience("Visita a la sagrada familia")
+                new Experience("Paseo por el Montseny", "Naturaleza"),
+                new Experience("Visita a la sagrada familia", "Cultural")
         );
 
         experienceRepository.saveAll(movies);
